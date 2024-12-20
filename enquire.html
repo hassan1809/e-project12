@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="jquery-3.7.1.min.js"></script>
+ 
+    
+  <style>
+  
+
+
+
+
+
+
+
+
+
+
+body{
+      overflow-x: hidden;
+/* background-color: white; */
+     background-color: rgba(203, 104, 5, 0.742); 
+     
+    }
+
+    .nav-item {
+      font-size: 18px;
+      text-transform: uppercase;
+      height: 82px;
+      line-height: 64px;
+      color: #ef662b;
+    }
+
+    .nav-link:hover {
+      color: #ef662b;
+
+    }
+
+    .nav-link:hover {
+      color: #ef662b;
+
+    }
+    .flare {
+      background: #BC6903;
+      margin-right: 10px;
+      border-radius: 4px;
+      padding-bottom: 2px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 10px;
+      color: #000000;
+      text-decoration: bold;
+    }
+
+    .flare:hover {
+      background-color: rgb(255, 255, 255);
+      color: black;
+
+      
+    }
+
+    .nav-item flare {
+      margin-bottom: 0px;
+    }
+
+    .nav-item flare .flare a.nav-link {
+      color: #fff !important
+    }
+
+    .topbarElements>div:nth-of-type(1) {
+      font-size: 48px;
+      margin: 12px 32px;
+      color: #ef662b
+    }
+
+    @media screen and (min-width:1040px) {
+      .flare {
+        margin-right: -15px;
+      }
+    }
+
+    @media screen and (max-width:1029px) {
+      .navbar-nav {
+        margin-bottom: 15px;
+        text-align: center
+      }
+
+      .nav-item {
+        background: rgba(255, 255, 255, 0.1);
+        margin: 2px;
+      }
+    }
+    .banner{
+   width: 100%;
+    
+        color: #fff;
+        height: 90vh;
+      background-image: url(img/ro-t8-handles-banner_1920x820_crop_right.webp);
+        background-size: cover;
+       
+    }
+    .banner .text p{
+      padding-left: 15vh;
+      padding-top: 20vh;
+     
+      font-size: 6vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: bold;
+ 
+    
+      
+    }
+    
+
+    .card {
+     margin: 30px;
+
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .card img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-body {
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+      
+
+
+    }
+
+    .text-center a{
+    text-decoration: none;
+}
+  
+  </style>
+ 
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"><img src="New folder/OIP-removebg-preview.png" alt="DBK Logo" height="100"
+              width="155px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link mx-2 " aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  activities
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="gym.html">gym</a></li>
+                  <li><a class="dropdown-item" href="#">Swiming pool</a></li>
+                  <li><a class="dropdown-item" href="#">squash</a></li>
+                  <li><a class="dropdown-item" href="#">badminton</a></li>
+                  <li><a class="dropdown-item" href="#">salon spa</a></li>
+                  <li><a class="dropdown-item" href="#">cycling</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="aboutu.html">about us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">FAQs</a>
+              </li>
+    
+              <li class="nav-item flare">
+                <a class="nav-link mx-2" href="#">Join Now<span class="ms-2">&#x2192;</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1 class="text-center text-black" style="padding-top: 20px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        Our Membership
+    </h1>
+      <div class="card-group ">
+        <div class="card">
+          <img src="img/Silver (4).png"   style="height: 400px;" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="Gaming pc">Silver</h5>
+            <p class="card-text">Prime Fitness offers the best dedicated fitness experience.
+            </p>
+            
+    
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="img/Silver (5).png"
+            style="height: 400px;" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Platinum</h5>
+            <p class="card-text">
+              offers you the range of basic activities with limit of freedom </p>
+           
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/Silver (3).png" style="height: 400px;" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gold</h5>
+            <p class="card-text">
+             
+              offers you the range of basic activities with freedom and with proper accessories </p>
+           
+          </div>
+        </div>
+      </div>
+      
+     
+    
+    <div class="container mt-5 text-light  border-radius:4px;">
+      <h2 class="text-center text-light">Contact us Form</h2>
+      <form id="registrationForm" >
+          <div class="form-group">
+              <label for="username">Username:</label >
+              <input type="text" class="form-control" id="username" name="username">
+              <div class="error" id="usernameError">**Username is required</div>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email">
+              <div class="error" id="emailError">**Valid email is required</div>
+          </div>
+          <div class="form-group">
+            <label for="exampleSelect1">Select an option</label>
+            <select class="form-control" id="exampleSelect1">
+                <option value="">Select an option</option>
+                <option value="Silver fitness">Silver fitness</option>
+                <option value="Platinum fitness">Platinum fitness</option>
+                <option value="Gold fitness">Gold fitness</option>
+                
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="output">selected:</label>
+            <input type="text" class="form-control" id="output" readonly>
+        </div>
+        
+    
+    <script>
+    $(document).ready(function() {
+        $('#exampleSelect1').on('change', function() {
+            var selectedValue = $(this).val();
+            $('#output').val(selectedValue);
+        });
+    });
+    </script>
+         
+          <button type="submit" class="btn btn-success" style="align-items: center;margin-top: 15px;">Submit</button>
+      </form>
+    </div>
+    
+    <script>
+      $(document).ready(function() {
+          $('#registrationForm').on('submit', function(event) {
+              event.preventDefault();
+    
+             
+              $('.error').hide();
+    
+              
+              var username = $('#username').val();
+              var email = $('#email').val();
+              var password = $('#password').val();
+              var confirmPassword = $('#confirmPassword').val();
+              var isValid = true;
+    
+             
+              if (username === '') {
+                  $('#usernameError').show();
+                  isValid = false;
+              }
+    
+             
+              if (email === '' || !validateEmail(email)) {
+                  $('#emailError').show();
+                  isValid = false;
+              }
+    
+             
+              if (password === '') {
+                  $('#passwordError').show();
+                  isValid = false;
+              }
+    
+              
+              if (confirmPassword !== password) {
+                  $('#confirmPasswordError').show();
+                  isValid = false;
+              }
+    
+              
+              if (isValid) {
+                  alert('Our team will respond to you in 24hrs!');
+                  
+              }
+          });
+    
+          
+          function validateEmail(email) {
+              var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+              return re.test(email);
+          }
+      });
+    </script>
+    
+    <script src="app.js"></script>
+    <div>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1916.6567363194806!2d67.03661303658652!3d24.92640852082776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f9a44ac07b5%3A0x9f1f0d59c4855cdd!2sPlot%20D%2047%2C%20Block-B%20Block%20B%20North%20Nazimabad%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1732304422275!5m2!1sen!2s" style="padding-top: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     
+     
+    </div>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="">
+      <!-- Footer -->
+      <footer class="text-center text-white" style="background-color: #000000">
+        <!-- Grid container -->
+        <div class="container">
+          <!-- Section: Links -->
+          <section class="mt-5">
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="aboutu.html" class="text-white">About us</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">equipment</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="home.html" class="text-white">activities</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class="text-white">FAQs</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="enquire.html" class="text-white">Join now</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+          </section>
+          <!-- Section: Links -->
+    
+          <hr class="my-5" />
+    
+          <!-- Section: Text -->
+          <section class="mb-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <p>
+                  Prime Fitness is fitness club established in the year 1982. The fitness club has
+                  equipped with all basic fitness equipment and also included the newly introduced.
+                  The Prime fitness club is the flagship brand for Prime Fitness Club Ltd, a UN based
+                  health and fitness services provider and a pioneer in the “Integrated Health Club
+                  Management Solutions’ business. Prime Fitness Club ltd focuses on staying fit is most
+                  important to meet the challenging requirements.
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Text -->
+    
+          <!-- Section: Social -->
+          <section class="text-center mb-5">
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </section>
+          <!-- Section: Social -->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div
+             class="text-center p-3"
+             style="background-color: rgba(0, 0, 0, 0.2)"
+             >
+          © 2024 Copyright:
+          <a class="text-white" href=""
+             >Prime Fitness</a
+            >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+    <!-- End of .container -->
+
+</body>
+</html>
